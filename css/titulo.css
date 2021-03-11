@@ -1,0 +1,570 @@
+/* Gris Plata estilos */
+/* Autores:Carlos Vega y Ricardo Mora*/
+
+@media screen 
+	and (min-width: 1200px)  {
+
+#cabecera{ 
+	transform:translate3d(0,0,0);
+	position:fixed;
+	z-index:6!important; /*nuevo*/
+	width:100%; 
+	height:65px; 
+	padding:0px; 
+	margin:0px; 
+	background-color: rgba(255,255,255,1.00) !important;
+	-webkit-box-shadow: 1px 1px 2px #666666; 
+	-moz-box-shadow: 1px 1px 2px #666666; 
+	box-shadow: 1px 1px 2px #666666;
+	border-top: #03D9CD 3px solid; /* Color según el template*/
+	border-bottom:#03D9CD 3px solid; /* Color según el template*/
+	}
+	
+.encabezadoXL{
+	padding:1px 1px 1px 85px;
+	margin:  0 10px 16px; /* modificado */	
+	width: 97.5%;
+    position: relative;
+	-webkit-box-shadow:2px 2px 3px #666666;
+	-moz-box-shadow:2px 2px 3px #666666;
+	box-shadow:2px 2px 3px #666666;
+	border-radius: 1px 0 0 1px;	
+	background: #03D9CE; /* Color según el template*/
+	border: #027771 1px solid; /* Color según el template*/
+	}
+
+.encabezadito h3{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: black !important; /* Color según el template*/
+	margin: 5px 5px 5px 5px; 	
+	}	
+	
+.encabezadoXL:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -20px;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #027771 #027771 transparent transparent; /* Color según el template*/
+}
+
+.encabezadoXL:before{
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 0;
+	left: -30px;
+	border-width: 20px 10px;
+	border-style: solid;
+	border-color: #03D9CE #027771 #03D9CE transparent; /* Color según el template*/
+	}	
+	
+}	
+
+@media screen 
+	and (min-width: 992px) 
+	and (max-width: 1199px)  {	
+	
+.contenedor{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+#cabecera{ 
+	transform:translate3d(0,0,0);
+	position:fixed;
+	/*position:relative;*/
+	z-index:6; /*nuevo*/
+	width: 100%; 
+	height: 50px; 
+	padding: 0px; 
+	margin: 0px; 
+	background-color: rgba(255,255,255,1.00);  
+	-webkit-box-shadow:2px 2px 3px #000000;
+	-moz-box-shadow:2px 2px 3px #000000;
+	box-shadow:2px 2px 3px #000000;
+	background-color:white !important;
+	border-top: #03D9CD 2px solid; /* Color según el template*/
+	border-bottom:#03D9CD 3px solid; /* Color según el template*/
+	}	
+	
+.encabezadoXL{
+	padding:1px 5px 1px 10px;
+	padding:1px 5px 1px 10px;
+	margin: auto 2px auto;/* modificado*/
+	width: 97%;
+    position: relative;
+	-webkit-box-shadow:2px 2px 3px #666666;
+	-moz-box-shadow:2px 2px 3px #666666;
+	box-shadow:2px 2px 3px #666666;
+	border-radius: 1px 1px 1px 1px;	
+	background: #03D9CE; /* Color según el template*/
+	border: #027771 1px solid; /* Color según el template*/
+	}
+
+.encabezadito h3{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px; 
+	font-weight: bold; 
+	color: black !important; /* Color según el template*/
+	margin: 5px 5px 5px 5px; 	
+	}
+
+}		
+
+@media screen 
+	and (min-width: 768px) 
+	and (max-width: 991px)  {		
+
+.contenedor{
+	padding-left:9px;
+	padding-right:9px;
+}
+	
+#cabecera{ 
+	transform:translate3d(0,0,0);
+	position:fixed;
+	/*position:relative;*/
+	z-index:6; /*nuevo*/
+	width: 100%; 
+	height: 50px; 
+	padding: 0px; 
+	margin: 0 auto 0 auto; 
+	background-color: rgba(255,255,255,1.00); 
+	-webkit-box-shadow: 1px 1px 2px #666666; 
+	-moz-box-shadow: 1px 1px 2px #666666; 
+	box-shadow: 1px 1px 2px #666666;
+	background-color:white !important;
+	border-top: #03D9CD 2px solid;  /* Color según el template*/
+	border-bottom:#03D9CD 2px solid; /* Color según el template*/
+	}	
+
+.encabezadoXL{
+	padding:1px 5px 1px 10px;
+	/*margin:3px 0 2px 5px;  original*/
+	margin:0 2px 5px; /* modificado */
+	width:100%;
+	}
+	
+.encabezadoXL #tema{
+    position:relative;
+	background:#03D9CE; /* Color según el template*/
+	border-radius:0 12px 0 0;
+	border-bottom: #03D9CE 2px solid;/* Color según el template*/
+	border-top: #027771 2px solid;/* Color según el template*/
+	border-left: #027771 2px solid;/* Color según el template*/
+	border-right: #027771 2px solid;/* Color según el template*/
+	padding-left:5px;
+	padding-right:30px;
+	width:99%;
+	-webkit-box-shadow: 2px 2px 1px #888888;
+	-moz-box-shadow: 2px 2px 1px #888888;
+	box-shadow: 2px 2px 1px #888888;
+	}
+
+.encabezadoXL #subtema{
+    position: relative;
+	background: #027771; /* Color según el template*/
+	border-radius: 0 0 0 12px;
+	border-bottom: #03D9CE 2px solid;/* Color según el template*/
+	border-top: #027771 2px solid;/* Color según el template*/
+	border-left: #03D9CE 2px solid;/* Color según el template*/
+	border-right: #03D9CE 2px solid;/* Color según el template*/	
+	padding-left: 5px;
+	padding-right:25px;
+	width:99%;
+	-webkit-box-shadow: 2px 2px 1px #888888;
+	-moz-box-shadow: 2px 2px 1px #888888;
+	box-shadow: 2px 2px 1px #888888;
+	}
+	
+.encabezadoXL .icono {
+	width:25px;
+	top:2px;
+	position:absolute;
+	}
+
+.encabezadoXL .iconoSub {
+	width:25px;
+	margin-top:4px;
+	position:absolute;
+	}
+	
+.encabezadoXL h1{
+	position:relative;
+	font-size: 15px; 
+	color: #000000; /* Color según el template*/
+	margin: 7px 10px 5px 32px;
+	font-weight: bold;
+	}
+
+.encabezadoXL h2{
+	position:relative;
+	font-size: 15px; 
+	color: #FFFFFF; /* Color según el template*/ 
+	margin: 5px 10px 5px 32px;	
+	font-weight: bold;
+	}
+
+.encabezadito h3{
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px; 
+	font-weight: bold; 
+	color: black !important; /* Color según el template*/
+	margin: 5px 5px 5px 5px; 	
+	}
+
+}	
+
+@media screen 
+	and (min-width: 576px) 
+	and (max-width: 767px)  {	
+	
+.contenedor{
+	padding-left:5px;
+	padding-right:5px;
+}	
+
+#cabecera{ 
+	transform:translate3d(0,0,0);
+	position:fixed;
+	/*position:relative;*/
+	z-index:6; /*nuevo*/
+	width: 100%; 
+	height: 50px; 
+	padding: 0px; 
+	margin: 0px; 
+	background-color: rgba(255,255,255,1.00); 
+	-webkit-box-shadow: 1px 1px 2px #666666; 
+	-moz-box-shadow: 1px 1px 2px #666666; 
+	box-shadow: 1px 1px 2px #666666;
+	z-index:1;
+	background-color:white !important;
+	border-top: #03D9CD 2px solid; /* Color según el template*/
+	border-bottom:#03D9CD 2px solid; /* Color según el template*/
+	}
+	
+.encabezadoXL{
+	padding:1px 5px 1px 10px;
+	/* margin: 3px 0 2px 5px; original */
+	margin:  0 2px 5px; /* modificado */
+	width:100%;
+	}
+
+.encabezadoXL #tema{
+    position:relative;
+	background:#03D9CE; /* Color según el template*/
+	border-radius:0 5px 0 0;
+	border-bottom: #027771 1px solid;/* Color según el template*/
+	border-top: #027771 1px solid;/* Color según el template*/
+	border-left: #027771 1px solid;/* Color según el template*/
+	border-right: #027771 1px solid;/* Color según el template*/	
+	padding-left:5px;
+	width:99%;
+	}	
+	
+.encabezadoXL #subtema{
+    position:relative;
+	background:#027771; /* Color según el template*/
+	border-radius: 0 0 0 5px;	
+	border-bottom: #03D9CE 1px solid;/* Color según el template*/
+	border-top: #03D9CE 1px solid;/* Color según el template*/
+	border-left: #03D9CE 1px solid;/* Color según el template*/
+	border-right: #03D9CE 1px solid;/* Color según el template*/		
+	padding-left:5px;
+	width:99%;
+	}
+	
+.encabezadoXL .icono {
+	display:none;
+	}
+
+.encabezadoXL .iconoSub {
+	display:none;
+	}
+	
+.encabezadoXL h1{
+	position:relative;
+	font-size:14px; 
+	margin:7px 10px 5px 2px;
+	color:black;
+	font-weight:bold;
+	}
+
+.encabezadoXL h2{
+	position:relative;
+	font-size:14px; 
+	color:white; 
+	margin:4px 10px 5px 2px;
+	font-weight:bold;
+	}
+
+.encabezadito h3{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px; 
+	font-weight: bold; 
+	color: black !important; /* Color según el template*/
+	margin: 5px 5px 5px 5px; 	
+	}
+
+}
+
+@media screen 
+	and (max-width: 575px)  {	
+	
+#cabecera{ 
+	transform:translate3d(0,0,0);
+	position:fixed;
+	/*position:relative;*/
+	z-index:6; /*nuevo*/
+	width: 100%; 
+	height: 50px; 
+	padding: 0px; 
+	margin: 0px; 
+	background-color: rgba(255,255,255,1.00); 
+	-webkit-box-shadow: 1px 1px 2px #666666; 
+	-moz-box-shadow: 1px 1px 2px #666666; 
+	box-shadow: 1px 1px 2px #666666;
+	border-top: #03D9CD 2px solid; /* Color según el template*/
+	border-bottom:#03D9CD 2px solid; /* Color según el template*/
+	}
+	
+.encabezadoXL{
+	padding:1px 5px 1px 10px;
+	/*margin: 30px 0 2px 5px; orignal */
+	margin:  0 2px 5px; /* modificado */
+	width:100%;
+	}
+
+.encabezadoXL #tema{
+    position:relative;
+	background:#03D9CE;
+	border-radius:0 5px 0 0;
+	border:#027771 1px solid;
+	padding-left:5px;
+	width:98%;
+	}
+
+.encabezadoXL #subtema{
+    position:relative;
+	background:#03D9CE;
+	border-radius: 0 0 0 5px;
+	border:#027771 1px solid;
+	padding-left:5px;
+	width:98%;
+	}
+	
+.encabezadoXL .icono {
+	display:none;
+	}
+
+.encabezadoXL .iconoSub {
+	display:none;
+	}
+	
+.encabezadoXL h1{
+	position: relative;
+	font-size: 14px; 
+	margin: 7px 10px 5px 2px;
+	color:black;
+	font-weight:bold;
+	}
+
+.encabezadoXL h2{
+	position: relative;
+	font-size: 14px; 
+	color:black; 
+	margin: 4px 10px 5px 2px;
+	font-weight:bold;
+	}
+
+.encabezadito h3{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px; 
+	font-weight: bold; 
+	color: black !important; /* Color según el template*/
+	margin: 5px 5px 5px 5px; 	
+	}
+}
+
+/* --------- Icono del encabezado - es partcular para cada apartado ---------------------- */
+
+.encabezadito{
+	margin: -20px 0 20px -30px;
+	padding: 1px 20px 1px 5px;
+    position: relative;
+	-webkit-box-shadow: 1px 1px 2px #000000;
+	-moz-box-shadow: 1px 1px 2px #000000;
+	box-shadow: 1px 1px 2px #000000;
+	border-radius: 1px 1px 35px 1px;
+	background: #03D9CD; /* Color según el template*/
+	float:left;
+	width:auto;	
+	border:1px solid rgba(2,119,113,.5); /* Color según el template*/
+} 
+
+/* ---------------------- Color de fondo del contenido - INICIA ---------------------- */
+.contenido{
+	border: 2px solid rgba(3,217,205,0.1); /* Color según el template*/	
+	background-color: rgba(3,217,205,0.2); /* Color según el template*/
+	-webkit-box-shadow: 2px 2px 1px #888888;
+	-moz-box-shadow: 2px 2px 1px #888888;
+	box-shadow: 2px 2px 1px #888888; 
+}
+/* ---------------------- Color de fondo del contenido - TERMINA ---------------------- */
+
+/* ---------------------- Cuadro Fin Unidad - INICIA ---------------------- */
+.cuadroBienvenida{
+	background: -moz-linear-gradient(0deg, #03B7AD, #039790);
+	background: -ms-linear-gradient(0deg, #03B7AD, #039790);
+	background: -o-linear-gradient(0deg, #03B7AD, #039790);
+	background: -webkit-linear-gradient(0deg, #03B7AD, #039790);
+	background: linear-gradient(0deg, #03B7AD, #039790);
+	border: 2px solid #027872;	
+}
+/* ---------------------- Cuadro Fin Unidad - TERMINA ---------------------- */
+
+/* ---------------------- Cuadro Fin de la Unidad - INICIA ---------------------- */
+.cuadroFinUni{ 
+	background: -moz-linear-gradient(0deg, #03B7AD, #039790);
+	background: -ms-linear-gradient(0deg, #03B7AD, #039790);
+	background: -o-linear-gradient(0deg, #03B7AD, #039790);
+	background: -webkit-linear-gradient(0deg, #03B7AD, #039790);
+	background: linear-gradient(0deg, #03B7AD, #039790);
+	border: 2px solid #027872;	
+}
+
+#fintxt01{
+	color:#FFFFFF;
+	font-size:20px;
+}
+#fintxt02{
+	color:#FFFFFF;
+}
+#fintxt03{
+	color:#FFFFFF;
+	font-size:20px;
+}
+#fintxt04{
+	color:#FFFFFF;
+}
+/* ---------------------- Cuadro Fin de la Unidad - TERMINA ---------------------- */
+
+/* ---------------------- CUADRO OBJETIVO - INICIA ---------------------- */
+.cuadroObjetivo{
+	background: -moz-linear-gradient(0deg, #03B7AD, #039790);
+	background: -ms-linear-gradient(0deg, #03B7AD, #039790);
+	background: -o-linear-gradient(0deg, #03B7AD, #039790);
+	background: -webkit-linear-gradient(0deg, #03B7AD, #039790);
+	background: linear-gradient(0deg, #03B7AD, #039790);
+	border: 2px solid #027872;	
+}
+
+.cuadroObjetivo #objtxt01{
+	color:#FFFFFF;
+}
+
+.cuadroObjetivo ul{
+	color:#FFFFFF;
+	padding-left:17px;
+}
+
+.cuadroObjetivo ul li{
+	color:#FFFFFF;
+}
+
+.cuadroObjetivo ul li p{
+	color:#FFFFFF;
+}
+
+#objtxt03{
+	color:#FFFFFF;
+}
+/* ---------------------- CUADRO OBJETIVO - TERMINA ---------------------- */
+
+/* ---------------- BORDE IMAGENES - INICIA ---------------------- */	
+.bordeFoto{ 
+	border: #03D9CD 5px solid;
+	border-radius: 1px; 
+	-webkit-box-shadow:2px 2px 3px #666666;
+	-moz-box-shadow:2px 2px 3px #666666;
+	box-shadow:2px 2px 3px #666666;
+	}
+/* ---------------- BORDE IMAGENES - TERMINA ---------------------- */
+
+/* ---------------- FOOTER - INICIA ---------------------- */	
+#piepagina{ 
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:98%;
+	height:10px; 
+	border:#027771 1px solid; /* Color según el template*/
+	background-color:#03D9CE; /* Color según el template*/
+	-webkit-box-shadow:2px 2px 3px #666666;
+	-moz-box-shadow:2px 2px 3px #666666;
+	box-shadow:2px 2px 3px #666666;
+	}
+/* ---------------- FOOTER - TERMINA ---------------------- */
+
+/* ---------------- CUADRO ICONO - INICIA ---------------------- */
+.cuadroIcono{
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: solid 5px #508cea !important;
+	border-top: solid 13px #355997 !important;
+	display:block;
+	/*background-color:#f4daac;*/
+	max-width: 700px;
+	border-radius: 0px 10px 10px 10px; 
+/*	border-radius: 8px;*/
+	position: relative;
+	padding: 40px 20px 3px 20px;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-moz-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-left: auto;
+	margin-right: auto;
+	background: -moz-linear-gradient(0deg, #c0ccdc, #f4f4f4);
+	background: -ms-linear-gradient(0deg, #c0ccdc, #f4f4f4);
+	background: -o-linear-gradient(0deg, #c0ccdc, #f4f4f4);
+	background: -webkit-linear-gradient(0deg, #c0ccdc, #f4f4f4);
+	background: linear-gradient(0deg, #c0ccdc, #f4f4f4);
+	/*border: 2px solid #fbc898;*/
+}
+
+.cuadroIcono p{
+	color: #000000;
+}
+
+.cuadroIconoCentro{
+	position:absolute;
+	display: block;
+	margin-left:auto; 
+	margin-right:auto; 
+	top:-17px;
+	left:0; 
+	right:0;
+	max-width:185px;
+	border-radius:75px;
+	padding: 3px 15px 3px 15px;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	background: -moz-linear-gradient(0deg, #03B7AD, #039790);
+	background: -ms-linear-gradient(0deg, #03B7AD, #039790);
+	background: -o-linear-gradient(0deg, #03B7AD, #039790);
+	background: -webkit-linear-gradient(0deg, #03B7AD, #039790);
+	background: linear-gradient(0deg, #03B7AD, #039790);
+	border: 2px solid #027771;
+	color: white !important;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+/* ---------------- CUADRO ICONO - TERMINA ---------------------- *
